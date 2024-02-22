@@ -1,0 +1,21 @@
+{
+  "name": "rsbuild-issue",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "dev:qiankun": "rsbuild dev --config ./rsbuild.qiankun.config.mjs",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "qiankun": "^2.10.16",
+    "vkbeautify": "^0.99.3",
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.3.8",
+    "@rsbuild/plugin-umd": "^0.4.4",
+    "@rsbuild/plugin-vue2": "^0.3.8"
+  }
+}
